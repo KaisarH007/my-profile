@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
 
           <div className="col-md-3">
-            <h4 className="text-center">MAP</h4>
+            <h4 className="text-center">PAGES</h4>
             <div className="text-center">
               <p>Home</p>
               <p>My Projects</p>
