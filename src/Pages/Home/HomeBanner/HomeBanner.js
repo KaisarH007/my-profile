@@ -47,7 +47,7 @@ const HomeBanner = () => {
                 to="/contact"
                 style={{ color: "white", textDecoration: "none" }}
               >
-                <button className="btn button-bg ms-3 text-white px-5 ">
+                <button className="btn button-bg sm-ms-0 sm-ms-0 ms-3 sm-mt-3  text-white px-5 ">
                   CONTACT ME
                 </button>
               </Link>

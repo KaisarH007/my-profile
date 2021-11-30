@@ -17,18 +17,22 @@ const Footer = () => {
               <span className="text-info">Kaisar</span> Hamid
             </h2>
             <p>
-              Akbar Shah R/A, Panthanagar Lain, Pahartali, Chittagong-4202,
+              <i class="fas fa-map-marker-alt"></i> Khulshi, Chittagong,
               Bangladesh.
             </p>
-            <p>Mobile: +88 01303850826 </p>
-            <p>Email: kaisar.hamid1620@gmail.com </p>
+            <p>
+              <i class="fas fa-mobile-alt"></i> +88 01303850826{" "}
+            </p>
+            <p>
+              <i class="far fa-envelope"></i> kaisar.hamid1620@gmail.com{" "}
+            </p>
           </div>
 
           <div className="col-md-3">
             <h4 className="text-center">PAGES</h4>
             <div className="text-center">
               <p>Home</p>
-              <p>My Projects</p>
+              <p>Projects</p>
               <p>Resume</p>
               <p>About Me</p>
               <p>Contact Me</p>

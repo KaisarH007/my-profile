@@ -1,10 +1,10 @@
 import React from "react";
 import AllProjects from "../AllProjects/AllProjects";
 import HomeBanner from "../HomeBanner/HomeBanner";
-
+import "./Home.css";
 const Home = () => {
   return (
-    <div>
+    <div className="home-bg text-white">
       <HomeBanner></HomeBanner>
       <AllProjects></AllProjects>
     </div>

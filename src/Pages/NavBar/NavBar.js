@@ -30,7 +30,7 @@ const NavBar = () => {
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end  fw-bold">
             <Nav.Link className="text-white" as={Link} to="/projects">
-              <h6>MY PROJECTS</h6>
+              <h6>PROJECTS</h6>
             </Nav.Link>
 
             <h6>
@@ -40,10 +40,12 @@ const NavBar = () => {
                 style={{ color: "white", textDecoration: "none" }}
                 href="https://drive.google.com/file/d/1AStsQ2MaD6yQVahF-z72YPuLpjEuvwrT/view?usp=sharing"
               >
-                MY RESUME
+                RESUME
               </a>
             </h6>
-
+            <Nav.Link className="text-white" as={Link} to="/blogs">
+              <h6>BLOGS</h6>
+            </Nav.Link>
             <Nav.Link className="text-white" as={Link} to="/about">
               <h6>ABOUT ME</h6>
             </Nav.Link>

@@ -27,45 +27,59 @@ export const ContactUs = () => {
 
   return (
     <Container>
-      <h1>Contact Me</h1>
+      <h1>
+        {" "}
+        <i class="fas fa-paper-plane"> </i> Contact Me
+      </h1>
       <div className="row my-5">
         <div className="col-md-6">
-          <div className="add-service mt-3">
-            <h5>Sent Your Message</h5>
+          <div className="send-message">
+            <h5>
+              <i class="fas fa-paper-plane"></i> Send Your Message
+            </h5>
             <form ref={form} onSubmit={sendEmail}>
-              <input type="text" name="user_name" placeholder="Your Name" />
+              <input type="text" name="name" placeholder="Your Name" />
 
-              <input type="email" name="user_email" placeholder="Your Email" />
+              <input type="email" name="email" placeholder="Your Email" />
+              <input type="text" name="subject" placeholder="Subject" />
 
               <textarea name="message" placeholder="Your Message" />
-              <input type="submit" value="Send" />
+              <button type="submit" className="btn btn-primary ">
+                <i class="fas fa-paper-plane"> </i> SEND
+              </button>
             </form>
           </div>
         </div>
         <div className="col-md-6">
-          <h5>Also Find Me</h5>
+          <h5>
+            <i class="fas fa-search-location"></i> Also Find Me
+          </h5>
           <p>
-            Akbar Shah R/A, Panthanagar Lain, Pahartali, Chittagong-4202,
+            <i class="fas fa-map-marker-alt"></i> Khulshi, Chittagong,
             Bangladesh.
           </p>
-          <p>Mobile: +88 01303850826 </p>
-          <p>Email: kaisar.hamid1620@gmail.com </p>
+          <p>
+            <i class="fas fa-mobile-alt"></i> +88 01303850826{" "}
+          </p>
+          <p>
+            <i class="far fa-envelope"></i> kaisar.hamid1620@gmail.com{" "}
+          </p>
           <Button variant="primary" className="  text-white  px-5 me-3 ">
             <a
               target="blank"
               style={{ color: "white", textDecoration: "none" }}
               href="https://www.linkedin.com/in/kaisar-hamid-b160b7206/"
             >
-              LinkedIn
+              <i class="fab fa-linkedin"></i> LinkedIn
             </a>
           </Button>
-          <Button variant="primary" className="  text-white  px-5 ">
+          <Button variant="dark" className="  text-white  px-5 ">
             <a
               target="blank"
               style={{ color: "white", textDecoration: "none" }}
               href="https://github.com/KaisarH007"
             >
-              GitHub
+              <i class="fab fa-github"></i> GitHub
             </a>
           </Button>
         </div>

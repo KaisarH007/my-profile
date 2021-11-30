@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./Pages/About/About";
+import Blogs from "./Pages/Blogs/Blogs";
 import { ContactUs } from "./Pages/Contact/Contact";
 import Footer from "./Pages/Footer/Footer";
 import AllProjects from "./Pages/Home/AllProjects/AllProjects";
@@ -27,6 +28,9 @@ function App() {
         </Route>
         <Route path="/projects">
           <AllProjects></AllProjects>
+        </Route>
+        <Route path="/blogs">
+          <Blogs></Blogs>
         </Route>
       </Switch>
       <Footer></Footer>
