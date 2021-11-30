@@ -8,6 +8,9 @@ import Footer from "./Pages/Footer/Footer";
 import AllProjects from "./Pages/Home/AllProjects/AllProjects";
 import Home from "./Pages/Home/Home/Home";
 import NavBar from "./Pages/NavBar/NavBar";
+import Project1 from "./Pages/ProjectDetails/Project1/Project1";
+import Project2 from "./Pages/ProjectDetails/Project2/Project2";
+import Project3 from "./Pages/ProjectDetails/Project3/Project3";
 
 function App() {
   return (
@@ -31,6 +34,15 @@ function App() {
         </Route>
         <Route path="/blogs">
           <Blogs></Blogs>
+        </Route>
+        <Route path="/project1">
+          <Project1></Project1>
+        </Route>
+        <Route path="/project2">
+          <Project2></Project2>
+        </Route>
+        <Route path="/project3">
+          <Project3></Project3>
         </Route>
       </Switch>
       <Footer></Footer>

@@ -6,8 +6,8 @@ const HomeBanner = () => {
   return (
     <Container>
       <div className="row">
-        <div className="col-md-4">
-          <div className="d-flex justify-content-center">
+        <div className="col-md-4 d-flex justify-content-center">
+          <div className="">
             {" "}
             <img
               style={{
@@ -19,8 +19,8 @@ const HomeBanner = () => {
             />
           </div>
         </div>
-        <div className="col-md-8">
-          <div className="mt-5 d-flex align-items-center">
+        <div className="col-md-8 d-flex align-items-center">
+          <div className="">
             <div>
               <h1 className="fw-bold">KAISAR HMAID</h1>
               <h6 className="text-secondary">Front-End Developer</h6>

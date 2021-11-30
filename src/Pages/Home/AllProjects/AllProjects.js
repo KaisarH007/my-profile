@@ -69,7 +69,7 @@ const AllProjects = () => {
                 Live Preview
               </a>
             </Button>
-            <Link to="/project1">
+            <Link to="/project2">
               <Button variant="primary" className="  text-white  me-3 ">
                 Explore More
               </Button>
@@ -116,7 +116,7 @@ const AllProjects = () => {
                 Live Preview
               </a>
             </Button>
-            <Link to="/project1">
+            <Link to="/project3">
               <Button variant="primary" className="  text-white  me-3 ">
                 Explore More
               </Button>
