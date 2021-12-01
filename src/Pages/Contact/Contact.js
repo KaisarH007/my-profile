@@ -2,6 +2,11 @@ import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import "./Contact.css";
 import { Button, Container } from "react-bootstrap";
+
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 export const ContactUs = () => {
   const form = useRef();
 
@@ -26,7 +31,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <Container>
+    <Container data-aos="fade-left">
       <h1>
         {" "}
         <i class="fas fa-paper-plane"> </i> Contact Me

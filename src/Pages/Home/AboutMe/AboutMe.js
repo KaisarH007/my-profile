@@ -3,10 +3,14 @@ import { Button, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import photo from "../../../images/kaisar__1_-croped.png";
 import "./AboutMe.css";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 const AboutMe = () => {
   return (
     <Container>
-      <div className="row pt-5">
+      <div data-aos="fade-left" className="row pt-5">
         <div className="col-md-12 d-flex justify-content-center">
           <div className="">
             <div>

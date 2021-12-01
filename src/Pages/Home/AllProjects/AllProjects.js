@@ -12,7 +12,7 @@ const AllProjects = () => {
         <div className="d-flex align-items-center justify-content-center">
           <h3>MY PROJECTS</h3>
         </div>
-        <div className="row my-3">
+        <div data-aos="fade-right" className="row my-3">
           <div className="col-md-6">
             <div>
               <img
@@ -51,7 +51,7 @@ const AllProjects = () => {
             </div>
           </div>
         </div>
-        <div className="row my-5">
+        <div data-aos="fade-left" className="row my-5">
           <div className="col-md-6 d-flex align-items-center justify-content-center my-2">
             <div>
               <h2>About This Projects</h2>
@@ -88,7 +88,7 @@ const AllProjects = () => {
             </div>
           </div>
         </div>
-        <div className="row py-5">
+        <div data-aos="fade-right" className="row py-5">
           <div className="col-md-6">
             <div>
               <img

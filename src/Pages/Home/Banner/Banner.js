@@ -3,11 +3,15 @@ import { Container, Button } from "react-bootstrap";
 import "./Banner.css";
 import photo from "../../../images/kaisar-banner.png";
 import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 const Banner = () => {
   return (
     <div className="banner-bg">
       <Container>
-        <div className="row">
+        <div data-aos="fade-up" className="row">
           <div className="col-md-4 d-flex justify-content-center">
             <div className="">
               {" "}

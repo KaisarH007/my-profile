@@ -11,10 +11,13 @@ import skill8 from "../../../images/skills/mui.png";
 import skill9 from "../../../images/skills/netlify.png";
 import skill10 from "../../../images/skills/nodejs.png";
 import skill11 from "../../../images/skills/heroku.png";
-
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 const MySkills = () => {
   return (
-    <Container>
+    <Container data-aos="zoom-in">
       <div className="d-flex align-items-center justify-content-center my-5">
         <h3>MY SKILLS</h3>
       </div>
