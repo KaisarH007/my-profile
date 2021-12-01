@@ -31,7 +31,7 @@ export const ContactUs = () => {
         {" "}
         <i class="fas fa-paper-plane"> </i> Contact Me
       </h1>
-      <div className="row my-5">
+      <div className="row py-5">
         <div className="col-md-6">
           <div className="send-message">
             <h5>
@@ -64,7 +64,7 @@ export const ContactUs = () => {
           <p>
             <i class="far fa-envelope"></i> kaisar.hamid1620@gmail.com{" "}
           </p>
-          <Button variant="primary" className="  text-white  px-5 me-3 ">
+          <Button variant="primary" className="  text-white  px-2 me-3 ">
             <a
               target="blank"
               style={{ color: "white", textDecoration: "none" }}
@@ -73,7 +73,7 @@ export const ContactUs = () => {
               <i class="fab fa-linkedin"></i> LinkedIn
             </a>
           </Button>
-          <Button variant="dark" className="  text-white  px-5 ">
+          <Button variant="dark" className="  text-white  px-2 ">
             <a
               target="blank"
               style={{ color: "white", textDecoration: "none" }}

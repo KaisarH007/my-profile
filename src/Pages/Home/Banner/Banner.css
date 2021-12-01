@@ -1,0 +1,23 @@
+.banner-bg {
+  background-image: url("../../../images/black-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.name-style {
+  color: #f13b0e;
+  font-size: 70px;
+  font-weight: 900;
+}
+.title-style {
+  color: #f7f7f7;
+  font-size: 70px;
+  font-weight: 900;
+}
+.title2-style {
+  color: #f7f7f7;
+  font-size: 40px;
+  font-weight: 700;
+}

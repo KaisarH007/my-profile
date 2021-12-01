@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import skill1 from "../../../images/skills/html-1.png";
 import skill2 from "../../../images/skills/css3.png";
-import skill3 from "../../../images/skills/css3.png";
+import skill3 from "../../../images/skills/bootstrap.png";
 import skill4 from "../../../images/skills/javascript.png";
 import skill5 from "../../../images/skills/react.png";
 import skill6 from "../../../images/skills/firebase.png";
@@ -10,6 +10,7 @@ import skill7 from "../../../images/skills/mongodb.png";
 import skill8 from "../../../images/skills/mui.png";
 import skill9 from "../../../images/skills/netlify.png";
 import skill10 from "../../../images/skills/nodejs.png";
+import skill11 from "../../../images/skills/heroku.png";
 
 const MySkills = () => {
   return (
@@ -49,6 +50,9 @@ const MySkills = () => {
         </div>
         <div className="col-md-2">
           <img style={{ width: "100%" }} src={skill10} alt="" />
+        </div>
+        <div className="col-md-2">
+          <img style={{ width: "100%" }} src={skill11} alt="" />
         </div>
       </div>
     </Container>
