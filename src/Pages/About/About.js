@@ -2,12 +2,16 @@ import React from "react";
 import { Button, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import photo from "../../images/kaisar__1_-croped.png";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const About = () => {
   return (
     <div className="home-bg text-white py-5">
       <Container>
-        <div className="row">
+        <div data-aos="zoom-in-up" className="row">
           <div className="col-md-4 d-flex justify-content-center">
             <div className="d-flex justify-content-center">
               {" "}

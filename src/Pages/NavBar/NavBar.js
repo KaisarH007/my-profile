@@ -23,7 +23,7 @@ const NavBar = () => {
                   src={photo}
                   alt=""
                 />
-                <span className="text-info"> KAISAR</span> HAMID{" "}
+                <span className="text-info"> K</span>H{" "}
               </h3>
             </Nav.Link>
           </Navbar.Brand>
