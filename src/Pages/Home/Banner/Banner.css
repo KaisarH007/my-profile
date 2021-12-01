@@ -9,6 +9,7 @@
 .name-style {
   color: #f13b0e;
   font-size: 70px;
+
   font-weight: 900;
 }
 .title-style {
@@ -20,4 +21,5 @@
   color: #f7f7f7;
   font-size: 40px;
   font-weight: 700;
+  font-family: "Courier New", Courier, monospace;
 }

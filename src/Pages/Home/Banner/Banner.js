@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Button } from "react-bootstrap";
 import "./Banner.css";
 import photo from "../../../images/kaisar-banner.png";
-import { Link } from "react-router-dom";
+import Typewriter from "typewriter-effect";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
@@ -29,7 +29,26 @@ const Banner = () => {
               <div>
                 <h1 className="title-style">I'M</h1>
                 <h1 className=" name-style">KAISAR HAMID</h1>
-                <h2 className="mb-4 title2-style">FRONT END DEVELOPER </h2>
+                <div className="mb-4 title2-style">
+                  <Typewriter
+                    onInit={(typewriter) => {
+                      typewriter
+                        .typeString("FRONT END DEVELOPER")
+                        .callFunction(() => {
+                          console.log("String typed out!");
+                        })
+                        .pauseFor(2500)
+                        .deleteAll()
+                        .typeString("FRONT END DEVELOPER")
+                        .callFunction(() => {
+                          console.log("All strings were deleted");
+                        })
+                        .deleteAll()
+                        .typeString("FRONT END DEVELOPER")
+                        .start();
+                    }}
+                  />
+                </div>
 
                 <button className="btn  text-white button-bg  px-4 fs-4 ">
                   <a
